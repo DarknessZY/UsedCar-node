@@ -5,9 +5,9 @@
   const fs = require('fs')
       // 创建腾讯云连接对象
   var cos = new COS({
-      AppId: "1309702462", // 替换为你的appid
-      SecretId: "AKIDDG3aswmLfiV0ECtJHzQaT5QUHn32kBMG", // 替换为你的SecretId
-      SecretKey: "e18yXpqb5HCrGOFqAD0WmlTu4xZuznKa", // 替换为你的SecretKey
+      AppId: "", // 替换为你的appid
+      SecretId: "", // 替换为你的SecretId
+      SecretKey: "", // 替换为你的SecretKey
   });
 
   // 上传对象(上传图片到腾讯云)

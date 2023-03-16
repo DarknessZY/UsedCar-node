@@ -39,7 +39,7 @@ exports.gettoken = (req, res) => {
         // console.log('login code: ' + req.body.code)
         const wx = {
             appid: 'wx1f70e7731eaea3c2',
-            secret: '742684ed0d0746d12dee44c65da7fb4e'
+            secret: ''
         }
         var url = 'https://api.weixin.qq.com/sns/jscode2session?appid=' + wx.appid + '&secret=' + wx.secret + '&js_code=' + req.body.code + '&grant_type=authorization_code'
         requesturl(url, (err, wxresult, body) => {
